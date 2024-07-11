@@ -32,6 +32,7 @@ body {
 h1, h2, h3 {
     color: var(--color-headings);
     margin-bottom: 1rem;
+    line-height: 1.1;
 }
 
 h1 {
@@ -218,6 +219,8 @@ a {
 
 .btn--primary:hover {
     background: #706677;
+    color: var(--color-headings);
+    transition: color 1s;
 }
 
 .btn--secondary {
@@ -439,6 +442,7 @@ a {
     .grid--1x3 {
         grid-template-columns: repeat(3, 1fr);
     }
+
 }
 
 /*Testimonial*/
@@ -551,9 +555,9 @@ a {
 
 /*Blocks*/
 
-.block {
+.block { /*changed 2-0.5rem*/
     --padding-vertical: 6rem;
-    padding: var(--padding-vertical) 2rem;
+    padding: var(--padding-vertical) 0.5rem;
     text-align: center;
 }
 
@@ -563,11 +567,16 @@ a {
 
 .block__heading {
     margin-top: 0;
+    color: var(--color-background);
 }
 
 .block--dark {
     background: var(--color-background);
     color: #7b858b;
+}
+
+.block--light {
+    background: #fff;
 }
 
 .block--dark .block__heading {
@@ -656,3 +665,76 @@ a {
         border: 0;
     }
 }
+
+/*Hero*/
+
+.hero {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+    padding: var(--padding-vertical) 0.; /*changed 2rem*/
+}
+
+.hero__content {
+    padding-bottom: 1rem;
+}
+
+.hero__container {
+    background: var(--color-accent);
+}
+
+.block__heading {
+    font-weight: 150;
+}
+
+.hero__tagline {
+    font-size: 2rem;
+    color: var(--color-border);
+    letter-spacing: 1px;
+    margin: 1rem;
+    padding-bottom: 2rem;
+}
+
+.hero__image {
+    width: 100%;
+    height: 100%;
+}
+
+.btn__container {
+    margin-bottom: 2rem;
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+    .hero__content {
+        margin-top: 15rem;
+    }
+
+    .block__header {
+       padding: 1rem;
+    }
+
+    .block__heading {
+        font-size: 9rem;
+    }
+
+    .hero__container {
+        margin-top: 1rem;
+    }
+
+    .hero__image {
+        position: relative;
+        top: 0;
+        
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .hero__content {
+        margin-top: 10rem;
+    }
+}
+
+
+
