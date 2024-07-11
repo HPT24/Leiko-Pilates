@@ -291,6 +291,10 @@ a {
 
 /*Plans*/
 
+.plan {
+    transition: transform .5s ease-out;
+}
+
 .plan__name {
     color: #fff;
     margin: 0;
@@ -320,6 +324,10 @@ a {
     margin-bottom: 2rem;
 }
 
+.plan--popular {
+    transform: scale(1.1);
+}
+
 .plan--popular .card__header {
     position: relative;
 }
@@ -333,10 +341,18 @@ a {
     right: 5%;
 }
 
+.plan:hover {
+    transform: scale(1.05);
+}
+
+.plan--popular:hover {
+    transform: scale(1.15);
+}
+
 @media screen and (min-width: 1024px) {
     .plan {
-        width: 50%; 
-        padding: 4rem;
+        width: 100%; /*50%*/
+        padding: 2rem; /*4rem*/
     }
 
     .plan__name {
@@ -736,5 +752,14 @@ a {
     }
 }
 
+/*Plans Block*/
 
+.block-plans .grid {
+    gap: 8rem 4rem;
+}
+
+.block-plans .card {
+    max-width: 500px;
+    margin: 0 auto;
+}
 
