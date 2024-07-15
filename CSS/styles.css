@@ -763,3 +763,53 @@ a {
     margin: 0 auto;
 }
 
+/*Features*/
+
+.feature__heading {
+    margin: 1rem 0;
+}
+
+.feature {
+    gap: 4rem 2rem;
+    margin: 12rem 0;
+}
+
+.feature:first-of-type {
+    margin-top: 6rem;
+}
+
+.feature__content {
+    text-align: centre;
+}
+
+.feature__image {
+    width: 90%;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .feature:nth-of-type(even).feature__image {
+        order: 2; /*not working?*/
+    }
+
+    .feature__container {
+        width: 60%;
+        height: 20%;
+        text-align: right;
+    }
+
+    }
+    
+  
+    /*
+    .feature__content-1 {
+        text-align: left;
+    }
+
+    .feature__content-2 {
+        
+    }
+    */
+
+
+
