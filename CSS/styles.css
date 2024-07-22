@@ -588,6 +588,7 @@ a {
 
 .block__header {
     text-align: center;
+    margin-bottom: 4rem;
 }
 
 .block__heading {
@@ -846,7 +847,15 @@ a {
     }
 }
 
+/*Testimonial Block*/
 
+
+@media screen and (min-width:1024px) {
+    .testimonial__button {
+        position: relative;
+        bottom: -30rem;
+    }
+}
 
 
 
