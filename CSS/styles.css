@@ -857,5 +857,150 @@ a {
     }
 }
 
+/*Footer*/
+
+.footer {
+    background: var(--color-background);
+    color: var(--color-body-darker);
+}
+
+.footer a {
+    color: var(--color-body-darker);
+    transition: 0.3s;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+.footer__section {
+    padding: 2rem;
+    border-bottom: 1px solid var(--color-primary);
+}
+
+.footer__section .footer__heading {
+    color: #fff;
+}
+
+.footer__section .list {
+    margin: 0;
+    text-align: left;
+}
+
+.footer__heading {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.footer__brand {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.footer__copyright {
+    font-size: 2.1rem;
+    color: #fff;
+    opacity: .3;
+}
+
+.footer__section .icon-container {
+    height: 45px;
+    width: 45px;
+    position: relative;
+    right: 1rem;
+}
+
+.footer__section .list__item {
+    font-size: 2rem;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.footer__home {
+    line-height: 2.8;
+}
+
+
+.footer__links {
+    line-height: 2.8;
+}
+
+
+.footer__icon {
+    height: 30px;
+    width: 30px;
+}
+
+
+
+@media screen and (min-width:768px) {
+    .footer__sections {
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    }
+
+    .footer .collapsible__chevron {
+        display: none;
+    }
+
+    .footer .collapsible__content {
+        opacity: 1;
+        max-height: 100%;
+    }
+
+    .footer__logo {
+        height: 100px;
+    }
+
+    .footer__brand {
+        order: -1;
+        margin-top: 1rem;
+        margin-right: 2rem;
+    }
+
+    .footer__copyright {
+        font-size: 1.5rem;
+    }
+
+    .footer__section {
+        border: 0;
+    }
+
+
+    .footer__heading {
+        font-size: 1.6rem;
+    }
+
+    .footer__home {
+        position: relative;
+        left: 5rem;
+        line-height: 2.8;
+    }
+
+    .footer__section .list__item {
+        font-size: 1.5rem;
+        position: relative;
+        right: 1rem;
+    }
+
+    .footer__links {
+        position: relative;
+        left: 3rem;
+        line-height: 2.8;
+    }
+    
+
+    .footer__section .icon-container {
+        height: 30px;
+        width: 30px;
+    }
+
+    .footer__icon {
+        height: 20px;
+        width: 20px;
+    }
+
+}
+
+
 
 
