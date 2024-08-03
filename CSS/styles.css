@@ -73,7 +73,7 @@ p {
     }
 
     h2 {
-        font-size: 4rem;
+        font-size: 6rem;
     }
 
     h3 {
@@ -515,7 +515,7 @@ a {
 .testimonial {
     padding: 1rem;
     position: relative;
-    margin-bottom: 4rem;
+    margin-bottom: 8rem;
 }
 
 .testimonial__image {
@@ -536,6 +536,16 @@ a {
     right: -32px;
 }
 
+.testimonial__block {
+    position: relative;
+    top: -18rem;
+}
+
+.testimonial_title {
+    color: var(--color-body-darker);
+    font-size: 5rem;
+}
+
 @media screen and (min-width: 768px) {
     .testimonial .quote,
     .testimonial .quote__author {
@@ -545,12 +555,21 @@ a {
     .testimonial .quote {
         margin-left: 3rem;
     }
+    
 }
 
 /*Testimonial Block*/
 
 
 @media screen and (min-width: 1024px) {
+    .testimonial__block {
+        top: 7rem;
+    }
+
+    .testimonial_title {
+        font-size: 6rem;
+    }
+
     .testimonial__button {
         position: relative;
         bottom: -20rem;
@@ -699,6 +718,8 @@ a {
     max-width: 1140px;
     margin: 0px auto;
     padding: 2rem;
+    position: relative;
+    top: -3rem;
 }
 
 /*Navigation bar*/
@@ -771,7 +792,7 @@ a {
         display: flex;
         flex-direction: row;
         justify-items: flex-start;
-        font-size: 1.6rem;
+        font-size: 2rem;
         max-height: 100%;
         opacity: 1;
     }
@@ -834,8 +855,9 @@ a {
     }
 
     .hero__image {
-        width: 100%; 
-        height: 100vh
+        min-width: 500px;
+        width: 100%;
+        height: 100vh;
     }
 
     .hero__content {
@@ -845,7 +867,7 @@ a {
 
     .hero__content .btn {
         position: relative;
-        bottom: -10rem;
+        bottom: -5rem;
         font-size: 3rem;
     }
 
@@ -869,63 +891,100 @@ a {
 /*section dividers*/
 
 .block-divider1 {
-    height: 80px;
-    position: relative;
-    bottom: 4rem;
+    height: 146px;
+    width: 100%;
+    position: absolute;
+    top: 67rem;
+    left: 0rem;
+    z-index: 2;
     background: darkgrey;
-    z-index: -1;
-    clip-path: polygon(0% 80%,100% 10%, 400% 60%, 0% 100%);
+    clip-path: polygon(0% 80%, 100% 50%, 380% 1%, 0% 100%);
     margin: 0;
     padding: 0 0;
-   
 }
 
+@media screen and (min-width:1024px) {
+    .block-divider1 {
+        height: 167px;
+        top: 57rem;
+    }
+
+}
+ 
+
 .block-divider2 {
-    height: 155px;
-    position: relative;
-    bottom: 20rem;
+    height: 121px;
+    width: 100%;
+    position: absolute;
+    top: 69rem;
     background: var(--color-border);
-    clip-path: polygon(0% 60%, 100% 10%, 400% 60%, 0% 100%);
-    z-index: -2;
+    clip-path: polygon(0% 60%, 100% 10%, 100% 60%, 0% 100%);
     margin-bottom: 0;
     padding: 0rem 0rem;
+    z-index: -1;
+}
+
+@media screen and (min-width: 1024px) {
+    .block-divider2 {
+        top: 55rem;
+        height: 180px;
+    }
 }
 
 
 .block-divider3 {
-    height: 113px;
-    position: relative;
-    bottom: 27rem;
+    height: 238px;
+    width: 100%;
+    position: absolute;
+    bottom: 1163rem;
     background: var(--color-border);
     clip-path: polygon(0 62%, 100% 78%, 100% 100%, 0% 100%);
 }
 
-.block-divider4 {
-    height: 188px;
-    position: relative;
-    top: -48rem;
-    background: darkgrey;
-    clip-path: polygon(0 62%, 100% 78%, 100% 100%, 0% 100%);
+@media screen {
+    
 }
 
-.block-divider5 {
-    height: 113px;
-    position: relative;
-    bottom: 46rem;
+.block-divider4 {
+    height: 130px;
+    width: 100%;
+    position: absolute;
+    bottom: 1161rem;
     background: darkgrey;
-    z-index: -1;
+    z-index: 1;
     clip-path: polygon(0% 80%, 100% 10%, 400% 60%, 0% 100%);
     margin: 0;
     padding: 0 0;
 }
 
-.block-divider6 {
-    height: 163px;
+.block-divider5 {
+    height: 106px;
+    width: 100%;
     position: relative;
-    bottom: 62rem;
-    background: var(--color-border);
+    bottom: 9rem;
+    background: darkgrey;
+    z-index: 2;
+    clip-path: polygon(0% 80%, 100% 10%, 400% 60%, 0% 100%);
+    margin: 0;
+    padding: 0 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .block-divider5 {
+        height: 120px;
+        bottom: -17rem;
+    }
+    
+}
+
+.block-divider6 {
+    height: 90px;
+    width: 100%;
+    position: relative;
+    bottom: -184rem;
+    background: darkgray;
     clip-path: polygon(0% 60%, 100% 10%, 400% 60%, 0% 100%);
-    z-index: -2;
+    z-index: 1;
     margin-bottom: 0;
     padding: 0rem 0rem;
 }
@@ -934,7 +993,7 @@ a {
 
 .block-plans {
     position: relative;
-    bottom: 1.5rem;
+    bottom: 14.5rem;
     background: var(--color-border);
 }
 
@@ -963,6 +1022,10 @@ a {
 }
 
 @media screen and (min-width: 1024px) {
+    .block-plans {
+        bottom: -12.5rem;
+    }
+
     .block-plans .card {
         max-width: 490px;
     }
@@ -974,7 +1037,7 @@ a {
     }
 
     .block__plan__header {
-        font-size: 10rem;
+        font-size: 9rem;
     }
 
 
@@ -1001,7 +1064,7 @@ a {
 
 .feature__container {
     position: relative;
-    top: -47rem;
+    top: -3rem;
 }
 
 .feature:first-of-type {
@@ -1049,7 +1112,7 @@ a {
     .feature__background {
         position: absolute;
         visibility: visible;
-        top: 85rem;
+        top: 100rem;
         left: -18rem;
         width: 1400px;
         z-index: -1;
@@ -1062,6 +1125,7 @@ a {
 
     .feature__header {
         padding-top: 2rem;
+        padding-bottom: 4rem;
         font-size: 6rem;
     }
 
@@ -1091,8 +1155,8 @@ a {
     
     .block-showcase {
         position: relative;
-        bottom: 20.5rem;
-        z-index: -1;
+        bottom: 1.5rem;
+        z-index: -2;
         background: var(--color-primary);
     }
 
@@ -1140,6 +1204,17 @@ a {
         left: 80rem;
         z-index: -1;
         opacity: 0.05;
+    }  
+}
+
+@media screen and (min-width:1024px) {
+    .block-showcase {
+        position: relative;
+        bottom: 1.5rem;
+    }
+
+    .block__header {
+        padding: 9rem 0;
     }
 }
     
@@ -1147,8 +1222,9 @@ a {
 /*Footer*/
 
 .footer {
-    background: var(--color-primary);
-    color: var(--color-border);
+    color: var(--color-body);
+    position: relative;
+    bottom: 21rem;
 }
 
 .footer a {
@@ -1157,11 +1233,13 @@ a {
 }
 
 .footer a:hover {
-    color: #fff;
+    color: var(--color-background);
 }
 
 .footer__section {
-    padding: 2rem;
+    padding: 1rem;
+    line-height: 3rem;
+    font-size: 2rem;
     border-bottom: 1px solid var(--color-primary);
 }
 
@@ -1190,8 +1268,7 @@ a {
 
 .footer__copyright {
     font-size: 2.1rem;
-    color: var(--color-border);
-    opacity: .3;
+    color: var(--color-body-darker);
 }
 
 .footer__section .icon-container {
@@ -1203,8 +1280,8 @@ a {
 
 .footer__section .list__item {
     font-size: 2rem;
-    padding: 1rem;
-    margin-left: 1rem;
+    padding: 1.5rem;
+    margin-left: -1rem;
 }
 
 .footer__home {
@@ -1225,6 +1302,11 @@ a {
 
 
 @media screen and (min-width:768px) {
+    .footer {
+        position: relative;
+        bottom: -1rem;
+    }
+
     .footer__sections {
         grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     }
@@ -1236,7 +1318,10 @@ a {
     .footer .collapsible__content {
         opacity: 1;
         max-height: 100%;
+        font-size: 1.6rem;
+        line-height: 5rem;
     }
+
 
     .footer__logo {
         height: 150px;
@@ -1244,7 +1329,7 @@ a {
 
     .footer__brand {
         order: -1;
-        margin-top: 1rem;
+        margin-top: -1.5rem;
         margin-right: 2rem;
     }
 
@@ -1269,8 +1354,7 @@ a {
 
     .footer__section .list__item {
         font-size: 1.5rem;
-        position: relative;
-        right: 1rem;
+        line-height: 2rem;
     }
 
     .footer__links {
@@ -1288,6 +1372,11 @@ a {
     .footer__icon {
         height: 20px;
         width: 20px;
+    }
+
+    .contact {
+        position: relative;
+        left: 0.5rem;
     }
 
 }
