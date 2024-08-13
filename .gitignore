@@ -1,0 +1,3 @@
+dist/
+.pacel-cache/
+node_modules/
