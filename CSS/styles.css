@@ -7,6 +7,7 @@
 
 html {
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 *,
@@ -25,7 +26,6 @@ html {
     --color-border: #ccc;
     --color-background: #001219; 
     --color-new: #d0a684;
-    
 }
 
 body {
@@ -34,8 +34,8 @@ body {
     font-size: 2.4rem;
     line-height: 1.5;
     color: var(--color-body);
-    overflow-x: hidden;
     position: relative;
+    overflow-x: hidden;
 }
 
 h1, h2, h3 {
@@ -805,6 +805,7 @@ a {
     left: 1rem;
     z-index: -1;
     opacity: 0.04;
+    overflow-x: hidden;
 }
 
 .showcase__paragraph4 {
