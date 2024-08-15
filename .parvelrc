@@ -1,6 +1,9 @@
 {
     "extends": "@parcel/config-default",
-    "optimisers": {
-        "*.svg": null
+    "transformers": {
+        "*.svg": ["parcel-transormer-svg-sprite"]
+    },
+    "packagers": {
+        "*.html": "parcel-packager-sprite"
     }
 }
