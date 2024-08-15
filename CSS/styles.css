@@ -658,7 +658,7 @@ a {
 }
 
 .hero__logo {
-    min-width: 250px;
+    max-width: 250px;
 }
 
 .hero__tagline {
