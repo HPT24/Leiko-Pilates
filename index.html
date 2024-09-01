@@ -18,6 +18,7 @@
       rel="stylesheet" >
     <link rel="stylesheet" href="CSS/normalize.css" >
     <link rel="stylesheet" href="CSS/styles.css" >
+    <link rel="stylesheet" href="testimonial.html" >
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" >
   </head>
@@ -32,7 +33,7 @@
               <li class="nav__item" ><a href="#showcase">About</a></li>
               <li class="nav__item" ><a href="#feature">Services</a></li>
               <li class="nav__item" ><a href="#price-plans">Pricing</a></li>
-              <li class="nav__item" ><a href="#price-plans">Contact</a></li>
+              <li class="nav__item" ><a href="contact.html">Contact</a></li>
             </ul>
           </nav>
         </div>
@@ -42,8 +43,8 @@
             data-aos="fade-right" 
             data-aos-duration="1000">
           </div>
-          <img class="hero__logo" src="images/logos/hero-logo.png" alt="">
-          <img class="name__logo" src="images/logos/name-logo.png" alt="">
+          <img class="hero__logo" src="images/logos/hero-logo.svg" alt="">
+          <img class="name__logo" src="images/logos/name-logo.svg" alt="">
              <blockquote class="hero__quote">
               <p class="quote__text hero__quote-text">From my very first class, it was clear that I had found an exceptional Pilates trainer. 
               </p>
@@ -75,16 +76,12 @@
         data-aos="zoom-in" 
         data-aos-duration="1000" 
         data-aos-easing="linear" >Reformer Pilates in Ilkley & Otley</p>      
-        <h2 class="showcase__header" 
-        data-aos="zoom-in" 
-        data-aos-duration="1000" 
-        data-aos-easing="linear">For your individual needs, 24 years experience.. </h2>
+        
       </header>
       <div class="container grid">
         <picture class="block-showcase__image">
-          <source type="image/webp" srcset="images/feature.webp 1x, images/feature@2x.webp 2x" >
-          <source type="image/png" srcset="images/feature.png 1x, images/feature@2x.png 2x" >
-          <img src="images/feature.png" alt="" data-aos="zoom-in-up" data-aos-duration="2000">
+          <source type="image/jpg" srcset="images/leiko-portrait@2x.jpg 2x" >
+          <img src="images/leiko-portrait@2x.jpg" alt="" data-aos="zoom-in-up" data-aos-duration="2000">
         </picture>   
         <ul class="list" >
           <li class="list__item1" >
@@ -146,7 +143,9 @@
               <img class="icon-feature icon--primary" src="images/brand.svg" alt="">
             </span>
             <h3 class="feature__heading" >Combo Chair</h3>
-            <p>Stretches and strengthens muscle groups not easily reached by more traditional techniques and equipment. We added a padded split pedal to increase functionality and allow for exercises that use rotational and reciprocal movement in the extremities</p>
+            <p>Offers several benefits, including improving strength, balance, flexibility, and overall
+              body awareness. It also helps stability through controlled movements and allows for a
+              wide range of exercises for both beginner and advanced people</p>
           </div>
           <picture>
             <source type="image/webp" srcset="images/equipment/combo.webp 1x, images/equipment/combo@2x.webp 2x" >
@@ -178,7 +177,7 @@
               <img class="icon-feature icon--primary" src="images/brand.svg" alt="">
             </span>
             <h3 class="feature__heading" >Reformer</h3>
-            <p>Designed to improve strength and boost flexibility, balance, posture and coordination. The reformer is a bed-like machine that moves back and forward and features functionalities (i.e. springs) to increase resistance as you workout</p>
+            <p>Designed to improve strength and boost flexibility, balance, posture and coordination. The reformer is a bed-like machine that moves back and forward and uses springs to increase resistance as you workout</p>
           </div>
           <picture>
             <source type="image/webp" srcset="images/equipment/reformer.webp 1x, images/equipment/reformer@2x.webp 2x" >
@@ -207,57 +206,124 @@
           data-aos="fade-up" 
           data-aos-duration="1000" 
           data-aos-easing="linear">Price Plans</header>
-          <p>Leiko is instructing on a brand new balanced body Pilates reformer in the Reformer Studio at Ilkley Yoga Centre, 32a Leeds Road, Ilkley, LS29 7DS on Wednesdays, Thursdays, and Saturdays.</p>
-          <p>You can also book her sessions at Gaynor Coward Pilates in Motion, 2 Bay Horse Court, Courthouse Street, Otley, LS21 1SB, on Thursdays, Fridays, and Saturdays.</p>
+          <p>Leiko instructs using Reformer apparatus equipment at two studios:</p>
+          <p>Ilkley Yoga Centre, 32a Leeds Road, Ilkley, LS29 7DS on Wednesdays, Thursdays, and Saturdays.</p>
+          <p>Gaynor Coward Pilates in Motion, 2 Bay Horse Court, Courthouse Street, Otley, LS21 1SB, on Thursdays, Fridays, and Saturdays.</p>
+
        <div class="grid grid--1x2">
-          <div class="plan plan--popular">
+
+          <div class="plan">
             <div class="card card--primary">
               <header class="card__header">
-                <h3 class="plan__name">Pricing - Ilkley</h3>
-                <span class="plan__description">Reformer Sessions</span>
-                <span class="plan__price">One to One: £50  Two to One: £65</span>
-                <span class="price__cycle">/per hour</span>        
+                <h3 class="plan__name">Ilkley</h3>
+                <ul class="plan__list" >
+                  <li class="plan__description">All sessions are one hour</li>
+                  <li class="plan__price">One to One: £50  Two to One: £65</li>
+                  <li class="price__cycle">Each sessions exercises will be tailored to individual needs</li>
+                </ul>        
               </header>
               <div class="card__body">
                 <ul class="list ">
-                  <li class="list__item">Time Table (Sessions are all one hour):</li>
+                  <li class="list__item">Time Table:</li>
                   <li class="list__item">Wednesday: 4.15pm, 5.30pm, 6.45pm</li>
                   <li class="list__item">Thursday: 8am, 9.15am, 10.30am, 11.45am, 1pm</li>
                   <li class="list__item">Saturday: 8am, 9.15am, 10.30am</li>
-                  <li class="list__item">Booking through Ilkley Yoga Centre website or Momence app</li>
-                  <li class="list__item">Payment is made when you book</li>
+                  <li class="list__item">Booking and payment through Ilkley Yoga Centre website or Momence app</li>
                   <li class="list__item">Cancellation within 24 hours charged in full</li>
                 </ul>
                 <a href="https://ilkleyyogacentre.co.uk/pilates-reformer-timetable/" class="btn btn--primary btn--stretched btn--block">book now</a>
               </div>
             </div>
           </div>      
-          <div class="plan plan--popular">
+          <div class="plan">
             <div class="card card--primary">
               <header class="card__header">
-                <h3 class="plan__name">Pricing - Otley</h3>
-                <span class="plan__description">Reformer Sessions</span>
-                <span class="plan__price">One to One: £45  Two to One: £55</span>
-                <span class="price__cycle">/per hour</span>                
+                <h3 class="plan__name">Otley</h3>
+                <ul class="plan__list" >
+                  <li class="plan__description">All sessions are one hour</li>
+                  <li class="plan__price">One to One: £45  Two to One: £55</li>
+                  <li class="price__cycle">Each sessions exercises will be tailored to individual needs</li>
+                </ul>       
               </header>
               <div class="card__body">
                 <ul class="list">
-                  <li class="list__item">Time Table (Sessions are all one hour):</li>
+                  <li class="list__item">Time Table:</li>
                   <li class="list__item">Thursday: 4.15pm, 5.30pm, 6.45pm</li>
                   <li class="list__item">Friday: 3pm, 4.15pm, 5.30pm, 6.45pm</li>
                   <li class="list__item">Saturday: 2pm, 3.15pm</li>
-                  <li class="list__item">Booking by contacting Leiko directly</li>
-                  <li class="list__item">Email: leiko.pilates@gmail.com</li>
-                  <li class="list__item">Tel: 07775 785383</li>
-                  <li class="list__item">Instagram: leiko_pilates</li>
+                  <li class="list__item">Booking and payment by contacting Leiko directly</li>
                   <li class="list__item">Cancellation within 3 hours will be charged in full</li>
                   <li class="list__item">Cancellation within 24 hours will be charged 50%</li>                 
                 </ul>
+                <a href="booking.html" class="btn btn--primary btn--stretched btn--block">book now</a>
               </div>
             </div>
           </div>   
        </div>
     </div>
+
+    <section class="slider-block">
+      <div class="slider">
+        <div class="slide-track">
+          <!--9 slides-->
+          <div class="slide">
+            <img src="images/testimonial/testimonial1.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/testimonial/testimonial1.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/testimonial/testimonial1.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/testimonial/testimonial1.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/testimonial/testimonial1.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/testimonial/testimonial1.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/testimonial/testimonial1.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/testimonial/testimonial1.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/testimonial/testimonial1.jpg" alt="">
+          </div>
+          <!--Same 9 slides doubled-->
+          <div class="slide">
+            <img src="images/testimonial/testimonial1.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/testimonial/testimonial1.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/testimonial/testimonial1.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/testimonial/testimonial1.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/testimonial/testimonial1.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/testimonial/testimonial1.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/testimonial/testimonial1.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/testimonial/testimonial1.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="images/testimonial/testimonial1.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
 
     <div id="testimonials" class="testimonial__block" >
       <section class="block">
@@ -273,7 +339,7 @@
             <div class="card testimonial">
               <div class="grid grid--1x2">
                 <div class="testimonial__image">
-                 <img src="images/leiko-portrait@2x.jpg" alt="A picture of the pilates instructor using the combo chair"
+                 <img src="images/testimonial/testimonial3@2x.jpg" alt="A picture of the pilates instructor using the combo chair"
                  data-aos="flip-left"
                  data-aos-easing="ease-out-cubic"
                  data-aos-duration="2000">
@@ -282,19 +348,21 @@
                   </span>
                  </div>
                  <blockquote class="quote">
-                  <p class="quote__text">Leiko is an incredible Pilates instructor, but she's also so much more than that!  Her personalised care, patience and attention have supported me through recovery from a back injury when, at times, I didn't think my body would work properly again.  Her key skill, which has always amazed me, is her ability to adapt and personalise her sessions to meet the specific needs of any given day or concern that I have.
+                  <p class="quote__text">I CANNOT WAIT TO GO BACK!</p>
+                   <p class="quote__text" >I was so nervous about taking part in a reformer Pilates after having had major surgery and doing little to no exercise for a long time! Leiko was so understanding and worked to my level, whilst still pushing me to make sure I got a good workout. I love the fact each session is tailored for me and I feel as if I’ve had a great workout. I cannot wait to go back for another one!
                   </p>
                   <footer>
                     <div class="media">
                       <div class="media__image">
-                        <img class="icon icon--primary quote__line" src="images/line.svg#line" alt="">
+                        <im class="icon icon--primary quote__line" src="images/line.svg#line" alt="">
                       </div>
                       <div class="media__body">
-                        <h3 class="media__title quote__author">Emma Roe</h3>
-                        <p class="quote__organisation">LM Pilates Client</p>
-                      </div>
+                        <h3 class="media__title quote__author">Dolores</h3>
+                        <p class="quote__organisation"></p>
+                      </div>             
                     </div>
                   </footer>
+                  <a href="testimonial.html" class="btn btn--primary btn--block testimonial__button">READ MORE REVIEWS HERE..</a>
                 </blockquote>
               </div>
             </div>
@@ -311,12 +379,8 @@
                     </p>
                     <footer>
                       <div class="media">
-                        <div class="media__image">
-                          <img class="icon icon--primary quote__line" src="images/line.svg#line" alt="">                     
-                        </div>
                         <div class="media__body">
-                          <h3 class="media__title quote__author">Fiona</h3>
-                          <p class="quote__organisation">LM Pilates Client</p>
+                          <h3 class="media__title quote__author">Fiona</h3>                         
                         </div>
                       </div>
                     </footer>
@@ -328,11 +392,11 @@
                   <footer>
                     <div class="media">
                       <div class="media__image">
-                        <img class="icon icon--primary quote__line" src="images/line.svg#line" alt="">                  
+                        <imgclass="icon icon--primary quote__line" src="images/line.svg#line" alt="">                  
                       </div>
                       <div class="media__body">
                         <h3 class="media__title quote__author">Vicky</h3>
-                        <p class="quote__organisation">LM Pilates Client</p>
+                        <p class="quote__organisation"></p>
                       </div>
                     </div>
                   </footer>
@@ -400,6 +464,11 @@
         </div>
       </div>
     </footer>
+
+    
+    
+
+    
       
     <script src="main.js" ></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

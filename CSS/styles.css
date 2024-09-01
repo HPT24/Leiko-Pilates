@@ -7,7 +7,7 @@
 
 html {
     font-size: 62.5%;
-    overflow-x: hidden;
+    overflow-x: hidden
     
 }
 
@@ -1070,11 +1070,16 @@ a {
     transition: transform .5s ease-out;
 }
 
+.plan__list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
 .plan__name {
     color: var(--color-background);
     margin: 0;
     font-weight: 500;
-    font-size: 4rem;
+    font-size: 6rem;
 }
 
 .plan__price {
@@ -1083,15 +1088,15 @@ a {
 }
 
 .price__cycle {
-    font-size: 2.4rem;
-    font-weight: 300;
+    font-size: 2rem;
+    font-weight: 500;
     opacity: 0.8;
     margin-right: 1rem;
 }
 
 .plan__description {
-    font-size: 2rem;
-    font-weight: 300;
+    font-size: 1.5rem;
+    font-weight: 500;
     letter-spacing: 1px;
     display: block;
 }
@@ -1135,7 +1140,7 @@ a {
     }
 
     .plan__name {
-        font-size: 3.5rem;
+        font-size: 6rem;
     }
 
     .plan__price {
@@ -1144,7 +1149,7 @@ a {
 
     .price__cycle {
         font-size: 1.6rem;
-        font-weight: 900;
+        font-weight: 500;
     }
 
     .plan__description {
@@ -1196,7 +1201,7 @@ a {
     color: var(--color-body-darker);
     font-weight: 600;
     text-align: center;
-    margin: 0rem 1rem 6rem;
+    margin: 0rem 1rem 1rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -1235,9 +1240,9 @@ a {
 
     .block-plans.container {
         width: 100%;
-        height: 136rem;
+        height: 145rem;
         position: relative;
-        top: -50rem;
+        top: -64rem;
     }
 
     .block__plan__header {
@@ -1282,6 +1287,12 @@ a {
 .testimonial_title {
     color: var(--color-body-darker);
     font-size: 5rem;
+}
+
+.testimonial__button {
+    position: relative;
+    padding: 1rem auto;
+
 }
 
 
@@ -1341,7 +1352,7 @@ a {
     .testimonial__button {
         position: relative;
         left: -2rem;
-        top: 19rem;
+        top: 10rem;
         width: 33rem;
     }
 
@@ -1678,3 +1689,356 @@ a {
         bottom: 63rem;
     }    
 }
+
+/*Review page*/
+
+.testimonial_ {
+    padding: 1rem;
+    position: relative;
+    top: -8rem;
+    margin-bottom: 8rem;
+    height: 100%;
+}
+
+.testimonial__image_ {
+    position: relative;
+    width: 100%;
+}
+
+.testimonial__image_ > img {
+    position: relative;
+    width: 100%;
+    border: 10px solid var(--color-body);
+    border-radius: 10px;
+}
+
+.testimonial__image_ > .icon-container {
+    position: absolute;
+    top: 3rem;
+    right: -32px;
+}
+
+.testimonial__block_ {
+    position: relative;
+    top: -1rem;
+}
+
+.testimonial_title_ {
+    color: var(--color-body-darker);
+    font-size: 5rem;
+    position: relative;
+    top: -7rem;
+}
+
+
+@media screen and (min-width:768px) { 
+    .testimonial__block_ .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .testimonial__block_ {
+        position: relative;
+        top: 4rem;
+    }
+
+    .testimonial_title_ {
+        position: relative;
+        top: -9rem;
+    }
+
+    .testimonial_ {
+        position: relative;
+        top: -6rem;
+
+    }
+
+    .testimonial_ .quote, .testimonial_ .quote__author {
+        font-size: 2.4rem;
+        width: 100%;
+        padding: 2rem 4rem;
+    }
+
+    .testimonial__image_ {
+        max-width: 55rem;
+        position: relative;
+        left: 8rem;
+        top: 5rem;
+        margin-bottom: 9rem;
+    }
+
+    .testimonial__button_ {
+        position: relative;
+        top: -1rem;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .testimonial__block_ {
+        top: 4rem;
+    }
+
+    .testimonial__block_ .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .testimonial_title_ {
+        font-size: 6rem;
+        margin-bottom: 6rem;
+    }
+
+    .testimonial__image_ {
+        left: 2rem;
+    }
+
+    .testimonial_ .quote {
+        left: 4rem;
+    }
+
+    .testimonial__button_ {
+        position: relative;
+        left: -2rem;
+        top: 19rem;
+        width: 33rem;
+    }
+
+    .quote__text_ {
+        margin: 1rem;
+        margin-top: 5rem;
+        width: 400px
+    }
+}
+
+/*Reviews Nav*/
+
+.nav_ {
+    background: transparent;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding:  1rem;  
+    
+}
+
+.nav__header_ {
+    font-weight: 50;
+    color: var(--color-body);
+}
+
+.nav__list_ {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0;
+}
+
+.nav__item_ {
+    padding: 0.5rem 2rem;
+    /*border-bottom: 1px solid #222;*/
+    border-top: 4rem;
+}
+
+.nav__item_>a {
+    color: var(--color-primary);
+    transition: color 3s;
+}
+
+.nav__item_>a:hover {
+    color: #fff;
+}
+
+.nav__toggler_ {
+    opacity: 0.5;
+    transition: box-shadow .4s;
+    margin-top: 0.5rem;
+}
+
+.nav_.collapsible--expanded .nav__toggler_ {
+    opacity: 1;
+    box-shadow: 0 0 0 3px var(--color-body);
+    border-radius: 5px;
+}
+
+.nav__brand_ {
+    transform: translateY(5px);
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .nav_ {
+        display: flex;
+        justify-content: center; 
+    }
+
+    .nav__toggler_ {
+        display: none;
+        justify-content: flex-start;
+    }
+
+    .nav__list_ {
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        justify-items: flex-start;
+        font-size: 2rem;
+        max-height: 100%;
+        opacity: 1;
+    }
+
+    .nav__item_ {
+        border: 0;
+        word-spacing: 4rem;
+    }
+
+    .hero__nav_ {
+        position: relative;
+        top: -4rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+}
+
+/*booking form*/
+
+/*body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}*/
+
+
+
+.booking-container {
+    position: relative;
+    top: 2rem;
+    right: 1rem;
+    opacity: 0.8;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+    background: transparent;
+}
+
+
+
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#messageDisplay {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+/*contact*/
+
+.booking-container>ul {
+    list-style: none;
+    font-weight: 500;    
+    font-size: 4rem;
+    position: relative;
+    top: 5rem;
+}
+
+
+
+/*Slider*/
+
+.slider-block {
+    position: relative;
+    top: -59rem;
+}
+
+.slider {
+    height: 400px;
+    margin: auto;
+    position: relative;
+    bottom: 40rem;
+    width: 90%;
+    display: grid;
+    place-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .slider-block {
+        position: relative;
+        top: -16rem;
+    }
+}
+
+.slide-track {
+    display: flex;
+    width: calc(300px * 18);
+    animation: scroll 40s linear infinite;
+}
+
+.slide-track:hover {
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 9));
+    }
+}
+
+.slide {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    perspective: 100px;
+
+}
+
+.slider img {
+    width: 100%;
+    transition: transform 1s;
+}
+
+img:hover {
+    transform: translateZ(20px);
+}
+
+
+
+
