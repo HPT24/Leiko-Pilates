@@ -1808,8 +1808,9 @@ a {
     }
 
     .testimonial_title_ {
-        font-size: 6rem;
-        margin-bottom: 6rem;
+        margin-bottom: 8rem;
+        position: relative;
+        top: -3rem;
     }
 
     .testimonial__image_ {
@@ -1983,9 +1984,8 @@ a {
 
 @media screen and (min-width: 1024px) {
     .booking-container {
-        height: 85rem;
-        padding-top: 5rem;
-    }  
+        height: 65rem;
+    }
 
     .booking .block-divider2 {
         position: relative;
