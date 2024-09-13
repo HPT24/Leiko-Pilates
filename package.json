@@ -20,6 +20,6 @@
     "express": "^4.19.2",
     "nodemailer": "^6.9.15"
   },
-  "main": "main.js",
+  "main": "main.html",
   "description": ""
 }
