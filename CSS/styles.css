@@ -757,7 +757,7 @@ a {
         font-size: 5rem;
         font-weight: 600;
         position: relative;
-        top: 6rem;
+        top: 4rem;
     }
 
     .hero__p {
@@ -765,7 +765,7 @@ a {
         color: var(--color-body-darker);
         font-weight: 700;
         position: relative;
-        top: 6rem;
+        top: 3.5rem;
     }
 
     .hero__image {
@@ -1036,7 +1036,7 @@ a {
     .feature__background {
         position: absolute;
         visibility: visible;
-        top: 150rem;
+        top: 135rem;
         left: -11rem;
         width: 1276px;
         z-index: -1;
@@ -1126,7 +1126,7 @@ a {
     .plan {
         width: 45%;
         position: relative;
-        left: 2rem;
+        left: -4rem;
     }
 
     .plan__name {
@@ -1181,6 +1181,8 @@ a {
     margin: 1rem;
     margin-top: 5rem;
     margin-bottom: 10rem;
+    position: relative;
+    top: -4rem;
 
 }
 
@@ -1189,7 +1191,7 @@ a {
 }
 
 .block__plan__header {
-    font-size: 5.5rem;
+    font-size: 3.5rem;
     color: var(--color-body-darker);
     font-weight: 600;
     text-align: center;
@@ -1210,9 +1212,13 @@ a {
     .block-plans .card {
         min-width: 60rem;
         position: relative;
-       
+        left: 4rem;
+        top: -5rem;
     }
-    
+
+    .block__plan__header {
+        font-size: 4.5rem;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -1560,7 +1566,7 @@ a {
 @media screen and (min-width: 768px) {
     .block-divider1 {
         height: 16rem;
-        top: -12rem;
+        top: -13rem;
     }   
 }
 
@@ -1591,7 +1597,7 @@ a {
 
 @media screen and (min-width: 768px) {
     .block-divider2 {
-        top: -31rem;
+        top: -32rem;
         height: 19rem;
     }
 }
