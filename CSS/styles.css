@@ -1701,6 +1701,11 @@ a {
     height: 100%;
 }
 
+.testimonial__container_ {
+    position: relative;
+    top: 3rem;
+}
+
 .testimonial__image_ {
     position: relative;
     width: 100%;
@@ -1750,9 +1755,14 @@ a {
         top: 4rem;
     }
 
+    .testimonial__container_ {
+        position: relative;
+        top: 4rem;
+    }
+
     .testimonial_title_ {
         position: relative;
-        top: -9rem;
+        top: -5rem;
     }
 
     .testimonial_ {
