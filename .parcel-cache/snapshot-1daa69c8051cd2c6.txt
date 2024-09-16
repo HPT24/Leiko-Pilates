@@ -1,4 +1,4 @@
-31827
+31833
 106C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\lmdb\node_modules\node-addon-api\tools\eslint-format.js133681070842065470 0
 82C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\is-boolean-object\.editorconfig133679439730018519 0
 91C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\css-tree\lib\syntax\node\TypeSelector.js133679439755083740 0
@@ -112,7 +112,7 @@
 50C:\Users\peted\OneDrive\Desktop\Leiko\booking.html133708656981546557 0
 69C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\globalthis\shim.js133679439743070762 0
 77C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\svgo\plugins\removeDesc.js133679439750349623 0
-50C:\Users\peted\OneDrive\Desktop\Leiko\contact.html133708653150621958 0
+50C:\Users\peted\OneDrive\Desktop\Leiko\contact.html133709787768730951 0
 87C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\@babel\core\lib\transform-ast.js.map133679439753679336 0
 68C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\browserify-cipher133679439738184751 1
 64C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\object.assign133679439745747021 1
@@ -128,7 +128,7 @@
 75C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\abortcontroller-polyfill133681070841320578 1
 82C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\caniuse-lite\data\regions\KN.js133679439762461789 0
 60C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\lru-cache133679439734471070 1
-42C:\Users\peted\OneDrive\Desktop\Leiko\dist133708744892583617 1
+42C:\Users\peted\OneDrive\Desktop\Leiko\dist133709788281611524 1
 108C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\@parcel\packager-html\node_modules\supports-color\license133681071381014708 0
 64C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\is-descriptor133679439742603320 1
 77C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\minipass\dist\esm\index.js133681071391386485 0
@@ -139,7 +139,7 @@
 92C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\@swc\helpers\esm\_wrap_async_generator.js133681071420786170 0
 124C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\regenerate-unicode-properties\Script_Extensions\Inscriptional_Parthian.js133679439756008990 0
 75C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\posthtml-parser\index.js133679439744235920 0
-48C:\Users\peted\OneDrive\Desktop\Leiko\index.html133707195942693194 0
+48C:\Users\peted\OneDrive\Desktop\Leiko\index.html133709762783284843 0
 90C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\parcel\node_modules\braces\package.json133681071395337490 0
 116C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\@parcel\optimizer-htmlnano\node_modules\import-fresh\package.json133681071386770369 0
 92C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\core-js\library\modules\es7.math.clamp.js133679439765135095 0
@@ -3790,7 +3790,7 @@
 68C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\ipaddr.js\LICENSE133700262397057819 0
 85C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\core-js\library\fn\get-iterator.js133679439767367118 0
 71C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\fast-glob\index.d.ts133679439732080153 0
-64C:\Users\peted\OneDrive\Desktop\Leiko\images\logos\name-logo.png133682064123487822 0
+64C:\Users\peted\OneDrive\Desktop\Leiko\images\logos\name-logo.png133708772359646699 0
 95C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\caniuse-lite\data\features\pagevisibility.js133679439763960289 0
 65C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\tty-browserify133679439734391108 1
 88C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\css-modules-loader-core\lib\parser.js133679439737148724 0
@@ -9772,7 +9772,7 @@
 75C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\core-js\fn\date\index.js133679439768087958 0
 72C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\msgpackr\benchmark.md133681070854454855 0
 80C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\hex-color-regex\.editorconfig133679439738714509 0
-50C:\Users\peted\OneDrive\Desktop\Leiko\images\logos133688848667295211 1
+50C:\Users\peted\OneDrive\Desktop\Leiko\images\logos133708773091914237 1
 114C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\regenerate-unicode-properties\General_Category\Letter_Number.js133679439756916330 0
 115C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\regenerate-unicode-properties\General_Category\Line_Separator.js133679439757077438 0
 116C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\regenerate-unicode-properties\General_Category\Modifier_Letter.js133679439758204315 0
@@ -10818,6 +10818,7 @@
 145C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-svgo\node_modules\entities\lib\esm\encode.d.ts133681071414048870 0
 81C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\msgpackr\dist\index.min.js.map133681070852850215 0
 87C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\postcss-merge-longhand\dist\lib\decl133679439743729595 1
+64C:\Users\peted\OneDrive\Desktop\Leiko\dist\booking.98408ad3.html133709788281551279 0
 73C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\miller-rabin\lib\mr.js133679439739026448 0
 97C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\postcss-merge-longhand\dist\lib\getLastNode.js133679439744409623 0
 84C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\lmdb\dependencies\lz4\lib\lz4hc.c133681070852301083 0
@@ -12594,6 +12595,7 @@
 111C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\@parcel\optimizer-svgo\node_modules\css-what\lib\es\types.js133681071396256706 0
 91C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\parcel-bundler\lib\utils\prettifyTime.js133681058184835645 0
 94C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\parcel-bundler\lib\utils\serializeObject.js133681058184870383 0
+68C:\Users\peted\OneDrive\Desktop\Leiko\dist\testimonial.a53d9a62.html133709788281551279 0
 90C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\parcel-bundler\lib\utils\syncPromise.js133681058184870383 0
 86C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\parcel-bundler\lib\utils\urlJoin.js133681058184894842 0
 89C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\es-abstract\2018\GetOwnPropertyKeys.js133679439763793387 0
@@ -19864,7 +19866,7 @@
 89C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\css-tree\lib\syntax\node\StyleSheet.js133679439754825100 0
 75C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\es-abstract\2017\GetV.js133679439764300271 0
 83C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\es-abstract\2017\HourFromTime.js133679439764716230 0
-52C:\Users\peted\OneDrive\Desktop\Leiko\CSS\styles.css133708653061832997 0
+52C:\Users\peted\OneDrive\Desktop\Leiko\CSS\styles.css133709787161987155 0
 115C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\@parcel\bundler-default\node_modules\@parcel\utils\src\stream.js133681071415736314 0
 81C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\es-abstract\2017\InLeapYear.js133679439764939459 0
 94C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\es-abstract\2017\InternalizeJSONProperty.js133679439765532910 0
@@ -23808,6 +23810,7 @@
 88C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\@babel\preset-env\lib\filter-items.js133679439745356980 0
 159C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-svgo\node_modules\entities\lib\generated\decode-data-html.js133681071393892214 0
 67C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\arr-diff\LICENSE133679439733230894 0
+64C:\Users\peted\OneDrive\Desktop\Leiko\dist\contact.054e38f4.html133709788281551279 0
 72C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\argparse\CHANGELOG.md133679439731873360 0
 114C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\@parcel\optimizer-htmlnano\node_modules\stylehacks\src\index.js133681071396633327 0
 68C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\argparse\index.js133679439733256754 0
@@ -27959,7 +27962,7 @@
 127C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\@parcel\optimizer-swc\node_modules\@parcel\utils\src\generateBuildMetrics.js133681071403895333 0
 125C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-normalize-timing-functions133681071391232094 1
 117C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\@parcel\optimizer-swc\node_modules\@parcel\utils\src\getRootDir.js133681071405643326 0
-53C:\Users\peted\OneDrive\Desktop\Leiko\dist\index.html133708744892418703 0
+53C:\Users\peted\OneDrive\Desktop\Leiko\dist\index.html133709788281551279 0
 111C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\@parcel\optimizer-swc\node_modules\@parcel\utils\src\hash.js133681071406295632 0
 119C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\@parcel\bundler-default\node_modules\@parcel\utils\src\collection.js133681071395786563 0
 117C:\Users\peted\OneDrive\Desktop\Leiko\node_modules\@parcel\optimizer-swc\node_modules\@parcel\utils\src\objectHash.js133681071412533328 0
@@ -31816,9 +31819,12 @@
 65C:\Users\peted\OneDrive\Desktop\Leiko\dist\index.5c124d7e.css.map133708744892573662 0
 60C:\Users\peted\OneDrive\Desktop\Leiko\dist\index.7b312c74.js133708744892418703 0
 64C:\Users\peted\OneDrive\Desktop\Leiko\dist\index.7b312c74.js.map133708744892573662 0
+61C:\Users\peted\OneDrive\Desktop\Leiko\dist\index.a0ae0bf1.css133709788281551279 0
+65C:\Users\peted\OneDrive\Desktop\Leiko\dist\index.a0ae0bf1.css.map133709788281611524 0
 60C:\Users\peted\OneDrive\Desktop\Leiko\dist\logo.640deeff.svg133708731333644870 0
 62C:\Users\peted\OneDrive\Desktop\Leiko\dist\logo14.98b4d97e.svg133708744886001367 0
 62C:\Users\peted\OneDrive\Desktop\Leiko\dist\logo16.98b4d97e.svg133708744886744385 0
+65C:\Users\peted\OneDrive\Desktop\Leiko\dist\name-logo.01d2b52c.png133709788269515698 0
 65C:\Users\peted\OneDrive\Desktop\Leiko\dist\name-logo.3c070c41.svg133708744888738167 0
 64C:\Users\peted\OneDrive\Desktop\Leiko\dist\reformer.1e047d1a.jpg133708744875990912 0
 67C:\Users\peted\OneDrive\Desktop\Leiko\dist\reformer@2x.495bf013.jpg133708744882467808 0
