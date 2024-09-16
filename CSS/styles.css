@@ -1111,8 +1111,6 @@ a {
 
 
 
-
-
 @media screen and (min-width: 768px) {
     .plan{
         position: relative;
@@ -1372,36 +1370,57 @@ a {
 /*Footer*/
 
 .footer {
-    color: var(--color-body);
     position: relative;
-    bottom: 100rem;
-    overflow: hidden;
+    top: -108rem;
     margin-bottom: 0;
 }
 
-.footer a {
-    color: var(--color-body);
-    transition: 0.3s;
+.footer__heading a {
+    transition: 0.5s;
 }
 
-.footer a:hover {
-    color: var(--color-background);
+.footer__heading {
+    transition: 0.5s;
+}
+
+.footer__heading a:hover {
+    color: var(--color-border);
+}
+
+.footer__heading:hover {
+    color: var(--color-border);
+    transition: 0.3s;
 }
 
 .footer__section {
     padding: 1rem;
-    line-height: 3rem;
-    font-size: 2rem;
-    border-bottom: 1px solid var(--color-primary);
+    line-height: 2rem;
+    font-size: 2rem;   
 }
 
-.footer__section .footer__heading {
+.footer__heading {
+    color: black;
+}
+
+.footer__heading a {
     color: black;
 }
 
 .footer__section .list {
     margin: 0;
     text-align: left;
+}
+
+.footer__section .list__item a {
+    font-size: 2rem;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    line-height: 3rem;
+    color: var(--color-body);
+}
+
+.footer__section .list__item a:hover {
+    color: var(--color-body-darker);
 }
 
 .footer__heading {
@@ -1430,22 +1449,6 @@ a {
     right: 1rem;
 }
 
-.footer__section .list__item {
-    font-size: 2rem;
-    padding: 1.5rem;
-    margin-left: -1rem;
-}
-
-.footer__home {
-    line-height: 2.8;
-}
-
-
-.footer__links {
-    line-height: 2.8;
-}
-
-
 .footer__icon {
     height: 60px;
     width: 60px;
@@ -1454,15 +1457,16 @@ a {
 
 
 @media screen and (min-width:768px) {
-    .footer {
+    .footer  {
         position: relative;
         bottom: 100rem;
-        overflow: hidden;
     }
 
     .footer__sections {
         grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-        font-size: 1.6rem;
+        display: flex;
+        justify-content: space-around;
+        justify-items: center;
     }
 
     .footer .collapsible__chevron {
@@ -1476,28 +1480,30 @@ a {
         line-height: 5rem;
     }
 
-    .collapsible__content .list__item {
-        font-size: 1.5rem;
+    .collapsible__content .list__item a { 
+        font-size: 1rem;
     }
 
 
     .footer__logo {
-        width: 94px;
+        width: 200px;
     }
 
     .footer__brand {
-        order: -1;
-        position: relative;
-        bottom: 0rem;
-        margin-top: 0;
+        position: absolute;
+        bottom: -35rem;
+        
     }
 
     .footer__copyright {
-        font-size: 1.5rem;
+        font-size: 1rem;
+        position: relative;
+        bottom: 2rem;
     }
 
     .footer__section {
         border: 0;
+        position: relative;
     }
 
 
@@ -1512,8 +1518,10 @@ a {
     }
 
     .footer__section .list__item {
-        font-size: 1.5rem;
+        font-size: 1rem;
         line-height: 2rem;
+        padding: 0;
+        margin-left: 0;
     }
 
     .footer__links {
@@ -1533,18 +1541,21 @@ a {
         width: 20px;
     }
 
-    .contact {
-        position: relative;
-        left: 0.5rem;
-    }
+    
 }
 
 @media screen and (min-width:1024px) {
-    .footer {
+    .footer__sections {
+        display: grid;
         position: relative;
-        bottom: 52rem;
-        overflow: hidden;
+        top: 35rem;
+        justify-items: center;
     }
+
+    
+
+    
+    
 }
 
 /*section dividers*/
@@ -2137,7 +2148,14 @@ img:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    overflow: auto;
     
+}
+
+.contact__block_ {
+    position: relative;
+    top: -1rem;
+    height: 100vh;
 }
 
 
