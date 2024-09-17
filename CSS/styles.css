@@ -1944,14 +1944,7 @@ a {
 
 /*booking form*/
 
-.nav_booking {
-    background: transparent;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding:  1rem;  
-    
-}
+
 
 
 .booking-container {
@@ -1968,14 +1961,6 @@ a {
 
 }
 
-.booking__logo {
-    visibility: visible;
-    position: absolute;
-    width: 8rem;
-    top: 1.5rem;
-    right: 1.5rem;
-    z-index: 2;
-}
 
 .booking .block-divider2 {
     position: relative;
@@ -1995,6 +1980,10 @@ a {
 }
 
 @media screen and (min-width: 1024px) {
+    .booking {
+        overflow: hidden;
+    }
+
     .booking-container {
         height: 65rem;
     }
