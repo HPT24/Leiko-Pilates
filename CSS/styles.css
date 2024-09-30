@@ -1357,6 +1357,7 @@ a {
         left: -2rem;
         top: -1rem;
         width: 33rem;
+        z-index: 1;
     }
 
     .quote__text {
@@ -2210,6 +2211,31 @@ img:hover {
 
 
 
+/*Playground*/
+
+.booking-block {
+    
+}
+
+.cal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    height: 100vh;
+    margin: 1rem 1rem;
+    overflow: auto;
+}
+
+.cal__con-1 {
+    width: 100%;
+    height: 100vh;
+    border: 5px solid black;
+    ;
+}
 
 
-
+.cal__con-2 {
+    width: 100%;
+    height: 100vh;
+    border: 5px solid black;
+}
