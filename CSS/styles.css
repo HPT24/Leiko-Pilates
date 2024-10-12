@@ -1036,7 +1036,7 @@ a {
     .feature__background {
         position: absolute;
         visibility: visible;
-        top: 135rem;
+        top: 140rem;
         left: -11rem;
         width: 1276px;
         z-index: -1;
@@ -1463,13 +1463,6 @@ a {
         bottom: 100rem;
     }
 
-    .footer__sections {
-        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-        display: flex;
-        justify-content: space-around;
-        justify-items: center;
-    }
-
     .footer .collapsible__chevron {
         display: none;
     }
@@ -1481,11 +1474,48 @@ a {
         line-height: 5rem;
     }
 
-    .collapsible__content .list__item a { 
-        font-size: 1rem;
+    .footer__sections {
+        display: grid;
+        position: relative;
+        top: 35rem;
+        justify-items: center;
+        grid-template-columns: repeat(3, 1fr, auto); /* Example: 3 equal columns */
+        grid-template-rows: auto; /* Rows will adjust based on content */
     }
 
+    .home {
+        grid-column: 1; /* Place in the first column */
+        grid-row: 1; /* Place in the first row */
+    }
 
+    .contact_ {
+        grid-column: 2; /* Place in the first column */
+        grid-row: 1; /* Place in the first row */
+    }
+
+    .location {
+        grid-column: 3; /* Place in the first column */
+        grid-row: 1; /* Place in the first row */
+    }
+
+    .collapsible__header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__heading {
+        font-size: 2.5rem;
+    }
+
+    .footer__section, .list__item  {
+        text-align: center;
+    }
+
+    .footer__section .list__item a {
+        font-size: 1.5rem;
+        line-height: 5rem;
+    } 
+    
     .footer__logo {
         width: 200px;
     }
@@ -1500,37 +1530,7 @@ a {
         font-size: 1rem;
         position: relative;
         bottom: 2rem;
-    }
-
-    .footer__section {
-        border: 0;
-        position: relative;
-    }
-
-
-    .footer__heading {
-        font-size: 1.6rem;
-    }
-
-    .footer__home {
-        position: relative;
-        left: 5rem;
-        line-height: 2.8;
-    }
-
-    .footer__section .list__item {
-        font-size: 1rem;
-        line-height: 2rem;
-        padding: 0;
-        margin-left: 0;
-    }
-
-    .footer__links {
-        position: relative;
-        left: 3rem;
-        line-height: 2.8;
-    }
-    
+    } 
 
     .footer__section .icon-container {
         height: 30px;
@@ -1551,11 +1551,42 @@ a {
         position: relative;
         top: 35rem;
         justify-items: center;
+        grid-template-columns: repeat(3, 1fr); /* Example: 3 equal columns */
+        grid-template-rows: auto; /* Rows will adjust based on content */
     }
 
-    
+    .home {
+        grid-column: 1; /* Place in the first column */
+        grid-row: 1; /* Place in the first row */
+    }
 
-    
+    .contact_ {
+        grid-column: 2; /* Place in the first column */
+        grid-row: 1; /* Place in the first row */
+    }
+
+    .location {
+        grid-column: 3; /* Place in the first column */
+        grid-row: 1; /* Place in the first row */
+    }
+
+    .collapsible__header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__heading {
+        font-size: 2.5rem;
+    }
+
+    .footer__section, .list__item  {
+        text-align: center;
+    }
+
+    .footer__section .list__item a {
+        font-size: 1.5rem;
+        line-height: 5rem;
+    } 
     
 }
 
@@ -1945,7 +1976,7 @@ a {
 
 
 .book1_2 img {
-    filter: blur(0.5px);
+    filter: blur(0.1px);
     
 }
 
