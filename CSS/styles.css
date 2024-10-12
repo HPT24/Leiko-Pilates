@@ -1253,6 +1253,12 @@ a {
         font-size: 5rem;
     }
 
+    .block-plans p {
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
 }
 
 /*Testimonial*/
@@ -1763,8 +1769,8 @@ a {
 .testimonial__image_ > img {
     position: relative;
     width: 100%;
-    border: 10px solid var(--color-body);
-    border-radius: 10px;
+    border: 1px solid var(--color-body);
+    border-radius: 2px;
 }
 
 .testimonial__image_ > .icon-container {
@@ -2176,10 +2182,10 @@ a.image-link-1:hover, a.image-link-2:hover {
 
 
 .slider {
-    height: 370px;
+    height: max-content;
     width: 295px;
-    border: solid 10px var(--color-body);
-    border-radius: 5px;
+    border: solid 1px var(--color-body);
+    border-radius: 2px;
     overflow: hidden;
     place-items: center;
 }
@@ -2256,9 +2262,15 @@ img:hover {
 
     .review-slider-block .slider {
         width: 50rem;
+        height: max-content;
+        border: none;
         position: relative;
         top: 10rem;
         left: 4rem;
+    }
+
+    .slider {
+        border: none;
     }
     
     .equipment-slider-block {
