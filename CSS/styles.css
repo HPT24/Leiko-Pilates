@@ -27,6 +27,7 @@ html {
     --color-border: #ccc;
     --color-background: #001219; 
     --color-new: #d0a684;
+    --color-instagram: #E4405F;
 }
 
 body {
@@ -1980,6 +1981,22 @@ a {
 
 /*booking choice page*/
 
+.booking-container {
+    height: 100vh;
+}
+
+.booking-info>h3 {
+    display: grid;
+    justify-items: center;
+    color: var(--color-body-darker);
+}
+
+.booking-info>p {
+    display: grid;
+    justify-items: center;
+}
+
+
 
 .book1_2 img {
     filter: blur(0.1px);
@@ -2021,7 +2038,7 @@ a.image-link-1:hover, a.image-link-2:hover {
     display: flex;
     margin-bottom: 2.5rem; 
     position: relative;
-    box-shadow: var(--color-background) 2px 2px 10px 1px ;   
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);   
 }
 
 
@@ -2031,7 +2048,7 @@ a.image-link-1:hover, a.image-link-2:hover {
     display: flex;
     margin-bottom: 2.5rem; 
     position: relative;
-    box-shadow: var(--color-background) 2px 2px 10px 1px ;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .overlay-text-1 {
@@ -2374,20 +2391,78 @@ img:hover {
 
 /*Playground*/
 
-.booking-container {
-    height: 100vh;
+
+.socials-container {
+    display: flex;
+    gap: 2rem;
+    position: fixed;
+    z-index: 1;
+    top: 56rem;
+    left: 3rem;
+
 }
 
-.booking-info>h3 {
+.socials-container a {
+    background-color: var(--color-new);
+    padding: 1emem;
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+    flex-shrink: 0;
     display: grid;
-    justify-items: center;
-    color: var(--color-body-darker);
+    place-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-.booking-info>p {
-    display: grid;
-    justify-items: center;
+.socials-container a svg {
+    height: 3rem;
 }
 
+.socials-container a::before {
+    content: attr(data-social);
+    position: absolute;
+    background-color: var(--accent-color);
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 100px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(0) rotate(25deg);
+    opacity: 0;
+    transition: 200ms cubic-bezier(.42,0,.44,1.68);
+}
 
+.socials-container a:hover {
+    background-color: var(--accent-color);
+    fill: black;
+}
+
+.socials-container a::after {
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid var(--accent-color);
+    transform: translateY(0) rotate(25deg);
+    opacity: 0;
+    transition: 200ms cubic-bezier(.42,0,.44,1.68);
+}
+
+.socials-container a:hover::before {
+    transform: translateY(-65px) rotate(0);
+    opacity: 1;
+}
+
+.socials-container a:hover::after {
+    transform: translateY(-42px) rotate(0);
+    opacity: 1;
+}
+
+@media screen and (min-width: 1024px) {
+    .socials-container {
+        top: 50rem;
+    }
+}
 
