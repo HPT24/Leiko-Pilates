@@ -1048,6 +1048,14 @@ a {
         opacity: 0.1;
     }
 
+    .feature__background_name__logo {
+        opacity: 0.3;
+        width: 151%;
+        position: relative;
+        left: -8rem;
+        top: 3rem;
+    }
+
     .feature__header {
         padding-top: 2rem;
         padding-bottom: 4rem;
