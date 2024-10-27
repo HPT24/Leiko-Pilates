@@ -1850,7 +1850,7 @@ a {
 
 @media screen and (min-width: 1024px) {
     .testimonial__block_ {
-        top: 4rem;
+        top: 1rem;
     }
 
     .testimonial__block_ .grid {
@@ -1982,7 +1982,7 @@ a {
 /*booking choice page*/
 
 .booking-container {
-    height: 100vh;
+   
 }
 
 .booking-info>h3 {
@@ -2138,6 +2138,11 @@ a.image-link-1:hover, a.image-link-2:hover {
     background: transparent;
 }
 
+.sumup-payment-widget {
+    position: relative;
+    right: 4rem;
+}
+
 
 @media screen and (min-width: 768px) {
     .booking-container {
@@ -2211,7 +2216,7 @@ a.image-link-1:hover, a.image-link-2:hover {
 
 .slide-track {
     display: flex;
-    width: calc(350px* 18);
+    width: calc(350px * 16);
     animation: scroll 40s linear infinite;
 }
 
@@ -2224,7 +2229,7 @@ a.image-link-1:hover, a.image-link-2:hover {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(calc(-250px * 9));
+        transform: translateX(calc(-250px * 8));
     }
 }
 
@@ -2274,7 +2279,7 @@ img:hover {
 
 @media screen and (min-width: 1024px) {
     .review-slider-block {
-        top: 5rem;   
+        top: 2rem;   
     }
 
     .review-slider-block .slider {
@@ -2300,8 +2305,8 @@ img:hover {
     }
 
     .slide {
-        height: 350px;
-        width: 300px;
+        height: 400px;
+        width: 310px;
         display: flex;
         align-items: center;
         padding: .5rem;
@@ -2321,7 +2326,7 @@ img:hover {
 
 .contact__block_ {
     position: relative;
-    top: -1rem;
+    top: 1rem;
     height: 100vh;
 }
 
