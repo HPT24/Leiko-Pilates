@@ -1482,27 +1482,12 @@ a {
     }
 
     .footer__sections {
-        display: grid;
-        position: relative;
-        top: 35rem;
-        justify-items: center;
-        grid-template-columns: repeat(3, 1fr, auto); /* Example: 3 equal columns */
-        grid-template-rows: auto; /* Rows will adjust based on content */
-    }
-
-    .home {
-        grid-column: 1; /* Place in the first column */
-        grid-row: 1; /* Place in the first row */
-    }
-
-    .contact_ {
-        grid-column: 2; /* Place in the first column */
-        grid-row: 1; /* Place in the first row */
-    }
-
-    .location {
-        grid-column: 3; /* Place in the first column */
-        grid-row: 1; /* Place in the first row */
+            display: flex;
+            position: relative;
+            top: 10rem;
+            justify-items: center;
+            grid-template-columns: repeat(3, 1fr, auto);
+            justify-content: space-evenly;   
     }
 
     .collapsible__header {
@@ -1789,7 +1774,7 @@ a {
     color: var(--color-body-darker);
     font-size: 5rem;
     position: relative;
-    top: -7rem;
+    top: -6rem;
 }
 
 .testimonial_footer {
@@ -1981,9 +1966,7 @@ a {
 
 /*booking choice page*/
 
-.booking-container {
-   
-}
+
 
 .booking-info>h3 {
     display: grid;
@@ -2118,6 +2101,26 @@ a.image-link-1:hover, a.image-link-2:hover {
     }
 }
 
+.booking-block-footer {
+    position: relative;
+    top: 16rem;
+}
+
+@media screen and (min-width: 768px) {
+    .booking-block-footer {
+        grid-template-columns: repeat(3, 1fr, auto);
+        top: 20rem;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .booking-block-footer {
+        top: -25rem;
+    }
+    
+}
+
 
 
 /*booking forms*/
@@ -2158,7 +2161,7 @@ a.image-link-1:hover, a.image-link-2:hover {
 
 @media screen and (min-width: 1024px) {
     .booking {
-        overflow: hidden;
+        overflow: visible;
     }
 
     .booking-container {
