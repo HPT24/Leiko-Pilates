@@ -639,7 +639,7 @@ a {
         display: flex;
         flex-direction: row;
         justify-items: flex-start;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         max-height: 100%;
         opacity: 1;
     }
@@ -2012,6 +2012,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: visible;
     
 }
 .image-link-1, .image-link-2 {
