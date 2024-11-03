@@ -1050,10 +1050,10 @@ a {
 
     .feature__background_name__logo {
         opacity: 0.2;
-        width: 151%;
+        width: 90%;
         position: relative;
-        left: -8rem;
-        top: 5rem;
+        left: 3rem;
+        top: 16rem;
     }
 
     .feature__header {
