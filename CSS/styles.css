@@ -246,7 +246,7 @@ a {
 
 .btn--primary {
     background: var(--color-primary);
-    color: #fff;
+    color: var(--color-border);
 }
 
 .btn--primary:hover {
@@ -603,11 +603,11 @@ a {
 
 .nav__item>a {
     color: var(--color-primary);
-    transition: color 3s;
+    transition: color 2s;
 }
 
 .nav__item>a:hover {
-    color: #fff;
+    color: var(--color-border);
 }
 
 .nav__toggler {
@@ -709,9 +709,9 @@ a {
 }
 
 .hero__content .btn {
-    font-size: 1.5rem;
+    font-size: 1rem;
     position: relative;
-    top: -2.5rem;
+    top: -2rem;
 }
 
 @media screen and (min-width: 400px) {
@@ -781,6 +781,12 @@ a {
         position: relative;
         top: -7rem;
         font-size: 2rem;
+    }
+
+    .booking-buttons_hero {
+        display: flex;
+        justify-self: center;
+        gap: 6rem;
     }
 
     .hero__background {
