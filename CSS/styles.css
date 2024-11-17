@@ -711,7 +711,7 @@ a {
 .hero__content .btn {
     font-size: 1rem;
     position: relative;
-    top: -2rem;
+    top: -3rem;
 }
 
 @media screen and (min-width: 400px) {
