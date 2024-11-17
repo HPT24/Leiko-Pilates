@@ -715,6 +715,12 @@ a {
     
 }
 
+.booking-buttons_hero {
+    display: flex;
+    justify-self: center;
+    gap: 5rem;
+}
+
 @media screen and (min-width: 400px) {
     .hero__content {
         display: flex;
