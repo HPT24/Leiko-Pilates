@@ -37,7 +37,7 @@ body {
     line-height: 1.5;
     color: var(--color-body);
     position: relative;
-    overflow-x: hidden;
+    overflow: hidden;
     margin-bottom: 0;
 }
 
@@ -65,6 +65,10 @@ p {
     margin-top: 0;
     padding: 1rem;
     font-size: 2rem;
+}
+
+a {
+    cursor: pointer;
 }
 
 @media screen and (min-width:1024px) {
@@ -658,6 +662,8 @@ a {
     margin: 0 auto;
 }
 
+
+
 .hero__logo {
     max-width: 250px;
     position: relative;
@@ -709,7 +715,7 @@ a {
 }
 
 .hero__content .btn {
-    font-size: 1rem;
+    font-size: 1.2rem;
     position: relative;
     bottom: 4.5rem;
     
@@ -718,18 +724,19 @@ a {
 .booking-buttons_hero {
     display: flex;
     justify-self: center;
-    gap: 5rem;
+    justify-content: center;
+    gap: 3.5rem;
 }
+
+
 
 @media screen and (min-width: 400px) {
     .hero__content {
         display: flex;
         align-items: center;
         flex-direction: column;
-    }
-    
+    }   
 }
-
 
 
 @media screen and (min-width: 768px) { 
@@ -787,7 +794,7 @@ a {
     .hero__content .btn {
         position: relative;
         top: -7rem;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .booking-buttons_hero {
@@ -1619,7 +1626,7 @@ a {
     position: relative;
     top: -12rem;
     left: 0rem;
-    z-index: 2;
+    z-index: 3;
     background: darkgrey;
     clip-path: polygon(0% 80%, 100% 50%, 380% 1%, 0% 100%);
     margin: 0;
@@ -1864,7 +1871,7 @@ a {
 
 @media screen and (min-width: 1024px) {
     .testimonial__block_ {
-        top: 1rem;
+        top: 0rem;
     }
 
     .testimonial__block_ .grid {
@@ -1995,6 +2002,9 @@ a {
 
 /*booking choice page*/
 
+.booking-info {
+    scroll-snap-type: none;
+}
 
 
 .booking-info>h3 {
@@ -2011,7 +2021,7 @@ a {
 
 .booking-info p {
     margin-bottom: 0;
-    font-weight: 600;
+    font-weight: 500;
     
 }
 
@@ -2498,3 +2508,21 @@ img:hover {
     }
 }
 
+
+.logo {
+    width: 40px;
+    opacity: 0.6;
+    position: fixed;
+    z-index: 999;
+    left: 1rem;
+    top: 1.5rem;
+  }
+
+
+
+@media screen and (min-width:1024px ) {
+    .logo {
+        left: 1rem;
+        top: 1.5rem;
+    }
+}
