@@ -2164,7 +2164,7 @@ a.image-link-1:hover, a.image-link-2:hover {
 .my-cal-inline {
     width: 100%;
     height: auto;
-    overflow: auto;
+    overflow: hidden;
     position: relative;
     top: 2rem;
     display: flex;
