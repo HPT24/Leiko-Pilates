@@ -603,6 +603,7 @@ a {
     padding: 0.5rem 2rem;
     /*border-bottom: 1px solid #222;*/
     border-top: 4rem;
+    position: relative;
 }
 
 .nav__item>a {
@@ -626,6 +627,33 @@ a {
 .nav__brand {
     transform: translateY(5px);
 }
+
+
+.submenu {
+    display: none; /* Hide the submenu by default */
+    position: absolute; /* Position submenu below the main menu item */
+    top: -1rem;
+    left: 11rem;
+    width: 25rem;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav__item:hover .submenu {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column; /* Show the submenu on hover */
+}
+
+.submenu .nav__item a {
+    font-size: 1.5rem;
+
+}
+
+
+
+
 
 @media screen and (min-width: 768px) {
     .nav {
@@ -651,6 +679,16 @@ a {
     .nav__item {
         border: 0;
         word-spacing: 4rem;
+    }
+
+    .submenu {
+        top: 3rem;
+        left: 0rem;
+        z-index: 9999;
+    }
+
+    .submenu .nav__item a {
+        word-spacing: normal;
     }
 }
 
@@ -748,6 +786,8 @@ a {
     .hero__nav{
         position: absolute;
         width: 100%;
+        z-index: 999;
+        height: 20rem;
     }
 
     .hero__logo {
