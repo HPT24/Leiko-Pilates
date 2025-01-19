@@ -632,7 +632,7 @@ a {
 .submenu {
     display: none; /* Hide the submenu by default */
     position: absolute; /* Position submenu below the main menu item */
-    top: -1rem;
+    top: 1rem;
     left: 11rem;
     width: 25rem;
     list-style-type: none;
@@ -640,7 +640,26 @@ a {
     margin: 0;
 }
 
+.submenu_ {
+    display: none; /* Hide the submenu by default */
+    position: absolute; /* Position submenu below the main menu item */ 
+    top: 0.1rem;
+    left: 11rem;
+    width: 25rem;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
 .nav__item:hover .submenu {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column; /* Show the submenu on hover */
+}
+
+.nav__item_:hover .submenu_ {
     display: flex;
     align-items: flex-start;
     flex-direction: column; /* Show the submenu on hover */
@@ -648,7 +667,10 @@ a {
 
 .submenu .nav__item a {
     font-size: 1.5rem;
+}
 
+.submenu_ .nav__item_ a {
+    font-size: 1.5rem;
 }
 
 
@@ -1980,6 +2002,7 @@ a {
     padding: 0.5rem 2rem;
     /*border-bottom: 1px solid #222;*/
     border-top: 4rem;
+    position: relative;
 }
 
 .nav__item_>a {
@@ -2031,24 +2054,41 @@ a {
     .nav__item_ {
         border: 0;
         word-spacing: 4rem;
+        position: relative;
+        font-size: 1.4rem;
     }
 
-    .hero__nav {
+    .hero__nav_ {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-evenly;
+        height: 12rem;
+    }
+
+    .submenu_ {   
+        top: 3rem;
+        left: 0rem;
+        z-index: 9999;
+    }
+
+    .submenu_ .nav__item_ a {
+        word-spacing: normal;
     }
 
 }
 
 @media screen and (min-width: 1024px) {
-
+     .nav__item_ {
+        font-size: 2rem;
+     }
 }
 
 /*booking choice page*/
 
 .booking-info {
     scroll-snap-type: none;
+    position: relative;
+    top: -4rem;
 }
 
 
