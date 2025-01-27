@@ -5,36 +5,42 @@ collapsibles.forEach((item) =>
   })
  );
 
- function showSidebar(){
-  const sidebar = document.querySelector('.sidebar')
-  sidebar.style.display = 'flex'
-}
 
-function hideSidebar(){
-  const sidebar = document.querySelector('.sidebar')
-  sidebar.style.display = 'none'
-}
 
-document.addEventListener('DOMContentLoaded', function () {
-  const navItems = document.querySelectorAll('.nav__item');
+ document.addEventListener('DOMContentLoaded', function () {
+  const navItems = document.querySelectorAll('.nav-item');
 
   navItems.forEach(item => {
       item.addEventListener('click', function (e) {
           // Prevent the default anchor click behavior
           e.preventDefault();
-          
-          // Close any opened submenus
+
+          // Close any opened submenus, excluding the current item
           navItems.forEach(i => {
               if (i !== item) {
-                  i.querySelector('.submenu').classList.remove('active');
+                  i.querySelectorAll('.submenu').forEach(submenu => {
+                      submenu.classList.remove('active');
+                  });
               }
           });
 
-          // Toggle the clicked submenu
-          const submenu = this.querySelector('.submenu');
-          if (submenu) {
+          // Toggle the clicked item's submenus
+          const submenus = this.querySelectorAll('.submenu');
+          submenus.forEach(submenu => {
               submenu.classList.toggle('active');
-          }
+          });
       });
+  });
+
+  // Optional: Close submenus when clicking outside
+  document.addEventListener('click', function(event) {
+      const isClickInsideNav = document.querySelector('nav').contains(event.target);
+      if (!isClickInsideNav) {
+          navItems.forEach(i => {
+              i.querySelectorAll('.submenu').forEach(submenu => {
+                  submenu.classList.remove('active');
+              });
+          });
+      }
   });
 });
